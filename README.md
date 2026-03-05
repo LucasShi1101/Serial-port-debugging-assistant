@@ -36,24 +36,13 @@ Serial Port Debugging Assistant (串口调试助手)
 
 (如果是 Qt/C++): 需要 Qt 5.12+ 运行库。
 
-(如果是 Python): pip install pyserial PyQt5 (或其他依赖)。
 
-(如果是 C#/.NET): .NET Framework 4.7.2 或 .NET Core。
 
-运行步骤
-克隆仓库：
-
-Bash
+```bash
+# 1. 克隆本仓库
 git clone https://github.com/LucasShi1101/Serial-port-debugging-assistant.git
-编译/运行：
+```
 
-打开项目文件（如 .pro / .sln / .py）。
-
-点击运行或执行编译脚本。
-
-📸 界面预览
-(建议在此处插入一张软件运行的截图)
-![Screenshot](path/to/screenshot.png)
 
 📖 使用指南
 连接硬件：通过 USB 转 TTL 或 RS232 连接设备到电脑。
@@ -63,6 +52,8 @@ git clone https://github.com/LucasShi1101/Serial-port-debugging-assistant.git
 参数设置：匹配设备的通信参数（默认通常为 9600, 8, N, 1）。
 
 开启调试：点击“打开串口”，开始发送或接收数据。
+
+
 
 🤝 贡献与反馈
 如果你在运行过程中发现 Bug，或者有新的功能建议：
